@@ -19,6 +19,11 @@ build/
 *.iml
 *.ipr
 out/
+gradle
+gradlew
+gradlew.bat
+.gitignore
+build.gradle
 
 ### NetBeans ###
 /nbproject/private/
@@ -31,7 +36,6 @@ out/
 .vscode/
 
 ### Package Files ###
-*.jar
 *.war
 *.nar
 *.ear
