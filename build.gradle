@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+    testImplementation 'com.codeborne:selenide:6.19.1'
+    testImplementation 'mysql:mysql-connector-java:8.0.33'
+    testImplementation 'commons-dbutils:commons-dbutils:1.7'
+}
+
+test {
+    useJUnitPlatform()
+}
